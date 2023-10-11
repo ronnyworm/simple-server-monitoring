@@ -1,0 +1,4 @@
+send_mail.rb
+check_configuration_critical.sh
+check_configuration.sh
+.DS_Store
