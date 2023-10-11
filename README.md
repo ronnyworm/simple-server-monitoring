@@ -2,9 +2,10 @@
 
 1. move these files to a directory on your server
 2. `gem install mail`
-3. set smtp credentials in send_mail.rb
-4. get inspired by example_check_configuration.sh to do your own checks for website uptime/disk space/running services and more
-5. run it yourself for testing (always with sudo!) or add it to your crontab directly `sudo server_monitoring.sh configuration.sh`
+3. `mv send_mail_example.rb send_mail.rb`
+4. set smtp credentials in send_mail.rb
+5. get inspired by example_check_configuration.sh to do your own checks for website uptime/disk space/running services and more
+6. run it yourself for testing (always with sudo because of permissions for running critical services e.g. ufw) or add it to your crontab directly `sudo server_monitoring.sh configuration.sh`
 
 ## crontab suggestion
 `sudo crontab -e`
