@@ -11,5 +11,6 @@
 `sudo crontab -e`
 
 	30 7 * * * f=/some/folder; $f/server_monitoring.sh $f/check_configuration.sh >> $f/monitoring.log 2>&1
-	if you need more than once per day
+
+	# if you need more than once per day
 	15 7-22 * * * f=/some/folder; $f/server_monitoring.sh $f/check_configuration_critical.sh >> $f/monitoring-critical.log 2>&1
